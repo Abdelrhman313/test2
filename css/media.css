@@ -1,0 +1,195 @@
+/* Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px) {
+    .upper_bar span {
+        margin-left: 30px;
+        border: none;
+        padding: 0;
+    }
+
+    .upper_bar span:hover {
+        background-color: transparent;
+        border: none;
+    }
+
+    /****************/
+    .slider .carousel-inner h1 {
+        font-size: 34px;
+        left: 20px;
+        line-height: 1.7em;
+    }
+
+    .slider .carousel-item {
+        background-position: center center;
+    }
+
+    /***************/
+
+    .features {
+        padding: 70px 0px 30px;
+    }
+
+    .features p {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    /******************/
+    .com_overview h2 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .com_overview p {
+        width: 80%;
+    }
+
+    .com_overview button {
+        padding: 10px 10px;
+    }
+
+    /*****************/
+    .gallary p {
+        width: 80%;
+    }
+
+    /******************/
+
+    .testimonial .carousel-caption img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial .carousel-caption {
+        bottom: 75px;
+    }
+
+    .testimonial .carousel-caption span {
+        margin-bottom: 10px;
+    }
+
+    .testimonial .carousel-caption p {
+        width: 100%;
+        line-height: 1.7em;
+    }
+
+    .testimonial .carousel-control-next,
+    .testimonial .carousel-control-prev {
+        display: none;
+    }
+
+    /***************/
+
+    .our_prices .col-lg-4 div.price_two {
+        position: relative;
+        top: 0px;
+    }
+
+    /****************/
+    .our_choose .row .col-lg-6:last-child {
+        padding: 45px 0px 0px 45px;
+    }
+
+    /*****************/
+    .contact {
+        padding: 40px 0px 70px
+    }
+
+    .contact .text-left {
+        text-align: center !important;
+    }
+
+    .contact .text-left p {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .contact .model-box button.bb {
+        left: 29%;
+    }
+
+    .footer h4{
+        margin-bottom: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .testimonial .carousel-caption {
+        bottom: 70px;
+    }
+
+    .testimonial .carousel-caption img {
+        width: 115px;
+        height: 115px;
+    }
+
+
+    .testimonial .carousel-control-next {
+        right: 30px;
+    }
+
+    .testimonial .carousel-control-prev {
+        left: 30px;
+    }
+
+    /***************/
+
+    .our_prices .col-lg-4 div.price_two {
+        position: relative;
+        top: 0px;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .testimonial .carousel-caption {
+        bottom: 75px;
+    }
+
+    .testimonial .carousel-caption img {
+        width: 115px;
+        height: 115px;
+    }
+
+
+    .testimonial .carousel-control-next {
+        right: 30px;
+    }
+
+    .testimonial .carousel-control-prev {
+        left: 30px;
+    }
+
+    /***************/
+
+    .our_prices .col-lg-4 div.price_two {
+        position: relative;
+        top: 0px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .testimonial .carousel-caption {
+        bottom: 80px;
+    }
+
+    /*****************/
+    .latest_post .card {
+        min-width: 18rem;
+    }
+
+    /********************/
+    .our_choose .row .col-lg-6:last-child {
+        padding: 50px 0px 0px 45px;
+    }
+
+    .our_choose .row .col-lg-6:last-child p {
+        font-size: 17px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
